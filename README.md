@@ -39,3 +39,48 @@ and ***R*** ⊆ ***A*** × ***A*** is a set of attack relations where each pair 
 
 - Grounded Extension
   - The minimal admissible set is computed as the grounded extension.
+
+## Dataset
+
+I have created a small dataset that is stored in the file: dataset_abstract_argumentation_scenarios.txt
+
+A small example from the dataset for explanation:
+
+```
+Scenario:
+Go to the Beach
+
+Arguments:
+A: We should go to the beach today because the weather is sunny.
+B: We should not go to the beach today because the waves are too high.
+C: The waves are not too high, so we can go to the beach.
+
+Attacks:
+B → A: The waves are too high to go to the beach.
+C → B: The waves are not too high to cancel the beach plan.
+
+Lattice (Powerset of Arguments):
+set()
+{'B'}
+{'A'}
+{'C'}
+{'A', 'B'}
+{'C', 'B'}
+{'A', 'C'}
+{'C', 'A', 'B'}
+
+Conflict-Free Sets:
+set()
+{'B'}
+{'A'}
+{'C'}
+{'A', 'C'}
+
+Admissible Sets:
+set()
+{'C'}
+{'A', 'C'}
+
+Grounded Extension: [{'C'}]
+```
+
