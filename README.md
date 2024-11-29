@@ -1,6 +1,6 @@
 # Abstract Argumentation Frameworks
 
-This repository contains two methods of abstract argumentation using lattice structure written by me— the first uses classical sets and the other uses probabilities for fuzzy set membership. Both methods aim to provide a fundamental mathematical structure for argumentation, with the probabilistic extension offering a way to take decisions under uncertainty (all arguments are not equally probable).
+This repository contains two methods of abstract argumentation using lattice structure written by me— the first uses classical sets and the other uses probabilities for fuzzy set membership and probabilistic reasoning. Both methods aim to provide a fundamental mathematical structure for argumentation, with the probabilistic extension offering a way to take decisions under uncertainty (all arguments are not equally probable).
 
 ## What is AAF?
 
