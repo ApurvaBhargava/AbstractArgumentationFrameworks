@@ -38,7 +38,7 @@ and ***R*** ⊆ ***A*** × ***A*** is a set of attack relations where each pair 
   - In the probabilistic set up, check if there's no defender or if the strongest defender is weaker than the attacker (lower probability).
 
 - Grounded Extension
-  - The minimal admissible set is computed as the grounded extension.
+  - The minimal admissible set is the grounded extension.
 
 ## Dataset
 
